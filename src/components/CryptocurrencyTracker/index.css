@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.crypto-app-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.error-message {
+  text-align: center;
+  color: #00e7ff;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 4px;
+}
+
+@media screen and (min-width: 576px) {
+  .error-message {
+    font-size: 48px;
+  }
+}
